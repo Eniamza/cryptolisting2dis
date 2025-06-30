@@ -150,11 +150,6 @@ async function coinGeckoMonitor() {
                 continue;
             }
 
-            // Save the updated assets list to the JSON file
-            Bun.write('./assets/cgAssets.json', JSON.stringify(cgAssets, null, 2))
-                .then(() => console.log("Updated cgAssets.json with new asset."))
-                .catch(err => console.error("Error writing to cgAssets.json:", err));
-
 
         }
 
@@ -162,6 +157,11 @@ async function coinGeckoMonitor() {
         await new Promise(resolve => setTimeout(resolve, 2000));
 
     }
+
+    // Save the updated assets list to the JSON file
+    Bun.write('./assets/cgAssets.json', JSON.stringify(cgAssets, null, 2))
+    .then(() => console.log("Updated cgAssets.json with new asset."))
+    .catch(err => console.error("Error writing to cgAssets.json:", err));
 
 }
 
