@@ -74,7 +74,7 @@ let sendMsg = function sendMessage(element,logourl){
         timestamp: new Date().toISOString()
       }
 
-    ax.post("https://discord.com/api/webhooks/1388898926375211059/fWS9ITWj7190B3i5Juv09_0adFEU-__KDCVvH5mSIuuOJs4VIYglflbZytza6-HjZtqk", 
+    ax.post(process.env.MEXC_WEBHOOK, 
         {
             embeds: [embed],
             avatar_url: logourl
