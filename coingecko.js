@@ -13,6 +13,7 @@ async function fetchAllAssetIDs() {
             return [];
         }
 
+        console.log("Asset IDs fetched successfully.");
         const assetList = response?.data || [];
 
         // {
@@ -144,6 +145,8 @@ async function coinGeckoMonitor() {
                         }
                     );
                     console.log(`Message sent for: ${assetDetails.name} (${assetDetails.symbol})`);
+                            // wait 2 seconds before sending the next message
+                    await new Promise(resolve => setTimeout(resolve, 2000));
                 }
             } else {
                 console.error(`Failed to fetch details for token ID ${token.id}`);
@@ -153,8 +156,7 @@ async function coinGeckoMonitor() {
 
         }
 
-        // wait 2 seconds before sending the next message
-        await new Promise(resolve => setTimeout(resolve, 2000));
+
 
     }
 

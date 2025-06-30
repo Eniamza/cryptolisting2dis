@@ -50974,11 +50974,6 @@
     "symbol": "navi",
     "name": "Navigator Exchange"
   },
-  "mumu": {
-    "id": "mumu",
-    "symbol": "mumu",
-    "name": "Mumu"
-  },
   "mumubit-token": {
     "id": "mumubit-token",
     "symbol": "mctp",
@@ -87673,5 +87668,10 @@
     "id": "z-z-z-z-z-fehu-z-z-z-z-z",
     "symbol": "ᚠ",
     "name": "Z•Z•Z•Z•Z•FEHU•Z•Z•Z•Z•Z"
+  },
+  "mumu": {
+    "id": "mumu",
+    "symbol": "mumu",
+    "name": "Mumu"
   }
 }
