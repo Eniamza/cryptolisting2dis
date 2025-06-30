@@ -1,4 +1,4 @@
-let currentAssets = require('./CurrAssets.json')
+let currentAssets = require('./mexcAssets.json')
 const ax = require('axios');
 
 async function fetchAllUSDTList() {
@@ -74,27 +74,6 @@ let sendMsg = function sendMessage(element,logourl){
         timestamp: new Date().toISOString()
       }
 
-
-    // ax.post("https://discord.com/api/webhooks/1388186760596688956/qPRru0_2660HxPF58LsYe_UqNqcwzL4sEMWZdRdG-3-LOnFXXrEO9It1uv-d4mSJI6w7", {
-    //     content: message,
-    //     avatar_url: logourl
-
-        
-    // }).then(response => {
-    //     console.log('Message sent:', message);
-    // }).catch(error => {
-    //     console.error('Error:', error);
-    // });
-
-    // const discordRes = await fetch(DISCORD_WEBHOOK_URL, {
-    //     method: "POST",
-    //     headers: { "Content-Type": "application/json" },
-    //     body: JSON.stringify({ embeds: [embed] })
-    //   });
-
-
-// Headers must be set to application/json
-    // Headers must be set to application/json
     ax.post("https://discord.com/api/webhooks/1388898926375211059/fWS9ITWj7190B3i5Juv09_0adFEU-__KDCVvH5mSIuuOJs4VIYglflbZytza6-HjZtqk", 
         {
             embeds: [embed],
@@ -117,30 +96,24 @@ async function mexcMonitor(){
 
     let tokenList = await fetchAllUSDTList()
 
-    // for (const element of tokenList) {
+    for (const element of tokenList) {
 
-    //     if(!currentAssets.find(a => a.id === element.id)){
+        if(!currentAssets.find(a => a.id === element.id)){
             
-    //         console.log("New Asset Found:",element.vn)
+            console.log("New Asset Found:",element.vn)
 
-    //         // let message = `
+            sendMsg(element,`https://www.mexc.com/api/file/download/${element.in}.png`)
 
-    //         //     **Asset Name:** ${element.vn} || ${element.fn}\n**Asset Link:** https://www.mexc.com/tokens/${element.vn}
-            
-    //         // `
+            // wait 2 seconds before sending the next message
+            await new Promise(resolve => setTimeout(resolve, 2000));
 
-    //         sendMsg(element,`https://www.mexc.com/api/file/download/${element.in}.png`)
-
-    //         // wait 2 seconds before sending the next message
-    //         await new Promise(resolve => setTimeout(resolve, 2000));
-
-    //     }
+        }
         
-    // };
+    };
 
     currentAssets = tokenList; // Update current assets
 
-    await Bun.write('./CurrAssets.json', JSON.stringify(currentAssets, null, 2));
+    await Bun.write('./mexcAssets.json', JSON.stringify(currentAssets, null, 2));
 
     console.log(`New Log at: ${Date.now().toLocaleString()}`)
     
