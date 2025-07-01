@@ -102,7 +102,7 @@ async function mexcMonitor(){
             
             console.log("New Asset Found:",element.vn)
 
-            sendMsg(element,`https://www.mexc.com/api/file/download/${element.in}.png`)
+            sendMsg(element,`https://www.mexc.com/api/file/download/${element.in}`)
 
             // wait 2 seconds before sending the next message
             await new Promise(resolve => setTimeout(resolve, 2000));

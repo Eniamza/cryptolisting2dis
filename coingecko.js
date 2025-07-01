@@ -132,7 +132,7 @@ async function coinGeckoMonitor() {
             if (assetDetails) {
                 let message = await craftMessage(assetDetails);
                 if (message) {
-                    await ax.post(process.env.MEXC_WEBHOOK, 
+                    await ax.post(process.env.CG_WEBHOOK, 
                         {
                             embeds: [message],
                             avatar_url: "https://www.coingecko.com/favicon-32x32.png",
