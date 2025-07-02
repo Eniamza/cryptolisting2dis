@@ -919,7 +919,7 @@
     "ot": 1639980000000,
     "cp": [],
     "ci": [],
-    "ps": 8,
+    "ps": 9,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -1791,6 +1791,34 @@
     "dst": 1,
     "tt": 1,
     "ca": ""
+  },
+  {
+    "id": "b50602a9ca014031812381c3f96ed36a",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "36bcbc0df739444587279dc1f8f3f373",
+    "vn": "HULKED",
+    "fn": "HULKED",
+    "srt": 6803,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250630124321043FhdPM3nm4HmdZ2",
+    "fot": 1751259600000,
+    "ot": 1751259600000,
+    "cp": [
+      "mc-trade-zone-newlisting2",
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      44,
+      29
+    ],
+    "ps": 7,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "7Qs5wnmnTLmBdVRZKPBYVkdefABRa4KLwWwHZanbpump"
   },
   {
     "id": "253bd7b36275442b967bfcc599dd28ac",
@@ -2773,7 +2801,7 @@
     "fn": "V Systems",
     "srt": 27,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20210517095423466F8z8RYIh2feSwN",
     "fot": 1553248200000,
     "ot": 1553248800000,
@@ -2927,7 +2955,7 @@
     "ci": [
       23
     ],
-    "ps": 20,
+    "ps": 23,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -3534,7 +3562,7 @@
     "ot": 1749047400000,
     "cp": [],
     "ci": [],
-    "ps": 17,
+    "ps": 18,
     "qs": 0,
     "cdm": 1,
     "st": 1,
@@ -4618,7 +4646,7 @@
     "ot": 1750946400000,
     "cp": [],
     "ci": [],
-    "ps": 5,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -4651,6 +4679,34 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x1931160CC6C5Bb1e44FCf590DB51d9E86723EF54"
+  },
+  {
+    "id": "62a2ed7744ad4a81beaa5219ded6fd2d",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "f8a99bd7ea7e4fa78debccaec83e4549",
+    "vn": "MONKE",
+    "fn": "Monke",
+    "srt": 6802,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250630123024320Ydbz28O3yiv4Hn",
+    "fot": 1751259000000,
+    "ot": 1751259000000,
+    "cp": [
+      "mc-trade-zone-newlisting2",
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      44,
+      29
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "9EQSeWY7pDB7MYoSFr8QJ19onGS1ehDmLbSGT2b3pump"
   },
   {
     "id": "ff33aa8c9fd84922b580dac76df2504f",
@@ -4799,7 +4855,7 @@
       44,
       29
     ],
-    "ps": 6,
+    "ps": 7,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -4911,7 +4967,7 @@
     "fn": "Hatom",
     "srt": 2179,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20230718182709946eLbnamYpeFjKFX",
     "fot": 1689850800000,
     "ot": 1689850800000,
@@ -5334,7 +5390,7 @@
     "vn": "NODE",
     "fn": "NODE",
     "srt": 6789,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250628134910686Nlg8Bk34VUEoYD",
     "fot": 1751277600000,
@@ -5350,9 +5406,9 @@
     "ps": 5,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "0x2F714d7b9A035d4ce24af8d9b6091c07E37f43Fb"
   },
   {
@@ -5449,7 +5505,7 @@
       44,
       29
     ],
-    "ps": 5,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -5952,6 +6008,34 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x3C8cd0dB9a01EfA063a7760267b822A129bc7DCA"
+  },
+  {
+    "id": "304d9480564b41c3958cbae18cb5de36",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "47593436149a4a6e91d7e064c7735b1c",
+    "vn": "AAPLX",
+    "fn": "Apple xStock",
+    "srt": 6817,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250702105516953yYLN2xAGMROWN0",
+    "fot": 1751454000000,
+    "ot": 1751454000000,
+    "cp": [
+      "mc-trade-zone-xStocks",
+      "mc-trade-zone-0fees"
+    ],
+    "ci": [
+      56,
+      45
+    ],
+    "ps": 2,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp"
   },
   {
     "id": "17308869378b4d69889376f78f178716",
@@ -7238,7 +7322,7 @@
     "vn": "DKT",
     "fn": "dKloud",
     "srt": 6794,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250627185502561AN6y6Ucsfjb5Ef",
     "fot": 1751274000000,
@@ -7248,9 +7332,9 @@
     "ps": 5,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "0x3A5d531c282eb99d9257a2A2E92484e1C2Ec71CC"
   },
   {
@@ -7768,6 +7852,28 @@
     "ca": "0xaCc280010B2EE0efc770BCE34774376656D8cE14"
   },
   {
+    "id": "7a7e5af74c964270bfae570da357b7ca",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "0c50412656bf4ab48ec5bd878c194955",
+    "vn": "YAPYO",
+    "fn": "Yapyo",
+    "srt": 6828,
+    "sts": 2,
+    "tp": "NEW",
+    "in": "F20250702160440219jXWVrUkhfqHJwO",
+    "fot": 1751464800000,
+    "ot": 1751464800000,
+    "cp": [],
+    "ci": [],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 2,
+    "dst": 1,
+    "tt": 4,
+    "ca": "0xFF11eA8cEC92336f126A0D8f33812569fE70dCB3"
+  },
+  {
     "id": "ada408466886460c9cffd97dcb18b27a",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "55a4066544a74c718398be61a6fb9000",
@@ -7909,6 +8015,34 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x2ac29781547EB7501d3CfD9733ce11e38dF5463A"
+  },
+  {
+    "id": "e9319c1eb2fa49369ad3ff883992771a",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "6607202d5bfa42cea2fdfa4c188c3d6b",
+    "vn": "NVDAX",
+    "fn": "NVIDIA xStock",
+    "srt": 6811,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250701183055972mVyiyXf0QF1mRj",
+    "fot": 1751365800000,
+    "ot": 1751365800000,
+    "cp": [
+      "mc-trade-zone-xStocks",
+      "mc-trade-zone-0fees"
+    ],
+    "ci": [
+      56,
+      45
+    ],
+    "ps": 2,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
   },
   {
     "id": "8f117ae3df6842cc9abc8005f02ff486",
@@ -9378,7 +9512,7 @@
     "vn": "SRX",
     "fn": "StorX Network",
     "srt": 6792,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250627164946441iPpVmOjdlAfecN",
     "fot": 1751266800000,
@@ -9388,9 +9522,9 @@
     "ps": 5,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "xdc5d5f074837f5d4618b3916ba74de1bf9662a3fed"
   },
   {
@@ -10497,14 +10631,14 @@
     "id": "5a23125899e34b32a5e90894b830aa19",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "eeb0cd31fcb3441fa1ae0179e2b68b35",
-    "vn": "C",
+    "vn": "CROAK",
     "fn": "CROAK",
     "srt": 6572,
     "sts": 1,
     "tp": "ASSESS",
     "in": "F20250526122518174t2jpASPPPmAdVu",
     "fot": 1748235300000,
-    "ot": 1748235300000,
+    "ot": 1751441400000,
     "cp": [
       "mc-trade-zone-MEME"
     ],
@@ -10619,6 +10753,34 @@
     "dst": 1,
     "tt": 1,
     "ca": "a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235#484f534b59"
+  },
+  {
+    "id": "68a027b23536490abb212d88968cf6a3",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "ffdd46a75217477eb6e7c33003c59bc0",
+    "vn": "TRWA",
+    "fn": "TRWA",
+    "srt": 6827,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250702140506251RRXDLe78s1FSOq",
+    "fot": 1751436900000,
+    "ot": 1751436900000,
+    "cp": [
+      "mc-trade-zone-RWA",
+      "mc-trade-zone-newlisting2"
+    ],
+    "ci": [
+      34,
+      44
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0x7b10d50b5885bE4c7985A88408265c109bd1EeC8"
   },
   {
     "id": "03d1e46507644d97aea6a8ecd1da4f55",
@@ -11485,6 +11647,34 @@
     "ca": "93s39pnRwp5NUxvJ3A5zDWoXxKxqW4RCVzMuNsKZbonk"
   },
   {
+    "id": "e1d5b5bddbd543029e5d89318179ace0",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "8d97a167292a44d194c048d293086982",
+    "vn": "CRCLX",
+    "fn": "Circle xStock",
+    "srt": 6816,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250702105410423m3YmIx4kCelydn",
+    "fot": 1751452200000,
+    "ot": 1751452200000,
+    "cp": [
+      "mc-trade-zone-xStocks",
+      "mc-trade-zone-0fees"
+    ],
+    "ci": [
+      56,
+      45
+    ],
+    "ps": 2,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1"
+  },
+  {
     "id": "70d82f8147fb4fbaa72c5567c0004af9",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "cc09c18e522b4ddb825972f0a4561bd1",
@@ -11625,7 +11815,7 @@
       44,
       29
     ],
-    "ps": 7,
+    "ps": 8,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -12081,6 +12271,28 @@
     "dst": 1,
     "tt": 1,
     "ca": "Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs"
+  },
+  {
+    "id": "b08e4b9185c947658e2947b9cc2f1c40",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "a302d28d527646e9824473865f9c42c8",
+    "vn": "M",
+    "fn": "MemeCore",
+    "srt": 6821,
+    "sts": 2,
+    "tp": "NEW",
+    "in": "F20250702163507033l5jMOy5ntZ1lnA",
+    "fot": 1751533200000,
+    "ot": 1751533200000,
+    "cp": [],
+    "ci": [],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 2,
+    "dst": 1,
+    "tt": 4,
+    "ca": ""
   },
   {
     "id": "8891f5fda6a243b485ee39f27a0ef474",
@@ -13126,13 +13338,11 @@
     "ot": 1749816000000,
     "cp": [
       "mc-trade-zone-GameFi",
-      "mc-trade-zone-newlisting2",
-      "mc-trade-zone-0fees"
+      "mc-trade-zone-newlisting2"
     ],
     "ci": [
       35,
-      44,
-      45
+      44
     ],
     "ps": 7,
     "qs": 2,
@@ -13459,6 +13669,34 @@
     "dst": 1,
     "tt": 1,
     "ca": ""
+  },
+  {
+    "id": "9e7e32d06f04417d91f3c67c2143ad1d",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "477f0c8ed1794f54a515afaf45ac082c",
+    "vn": "STOCKCOIN",
+    "fn": "Stockcoin",
+    "srt": 6826,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250702120050301d8qdyOtvhk1eQD",
+    "fot": 1751430000000,
+    "ot": 1751430000000,
+    "cp": [
+      "mc-trade-zone-newlisting2",
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      44,
+      29
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "8jVcgXXUReoiFCDzDMEhftCvA7HWqLX6rNmZ6AxLpump"
   },
   {
     "id": "2394376df71a40ec964db89620ddd318",
@@ -16454,6 +16692,28 @@
     "ca": "9psiRdn9cXYVps4F1kFuoNjd2EtmqNJXrCPmRppJpump"
   },
   {
+    "id": "e3158c6edf2d46178644ce23051ec01b",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "f8eccf582fd649cebf2f13ef2ee5593c",
+    "vn": "ECHO",
+    "fn": "Echo",
+    "srt": 6829,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250702164829738b6WV1IAht7EEIQ",
+    "fot": 1751450700000,
+    "ot": 1751450700000,
+    "cp": [],
+    "ci": [],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0xb2c7780f0a255a6137e5b39733f5a4c85fe093c549de5c359c1232deef57d1b7"
+  },
+  {
     "id": "b9eec0def1724f5a8542927d681e59bc",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "b6e5a706d73c4c7d95f56701c87ee4ca",
@@ -16480,6 +16740,28 @@
     "ca": "0xC82E3dB60A52CF7529253b4eC688f631aad9e7c2"
   },
   {
+    "id": "96a12be5a1cb4529b66d9d4810666461",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "62d0452869064c94b74d597315e9b579",
+    "vn": "SEAM",
+    "fn": "Seamless",
+    "srt": 2771,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20231212134653168sG8QNAU8Dhtt9x",
+    "fot": 1702447200000,
+    "ot": 1702447200000,
+    "cp": [],
+    "ci": [],
+    "ps": 4,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0x6b66ccd1340c479B07B390d326eaDCbb84E726Ba"
+  },
+  {
     "id": "09f8672a6d9743d6ba83f3eb53100178",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "648b9a9a9d7a47a38a3a709032bb727d",
@@ -16504,28 +16786,6 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x774eaF7A53471628768dc679dA945847d34b9a55"
-  },
-  {
-    "id": "96a12be5a1cb4529b66d9d4810666461",
-    "mcd": "128f589271cb4951b03e71e6323eb7be",
-    "cd": "62d0452869064c94b74d597315e9b579",
-    "vn": "SEAM",
-    "fn": "Seamless",
-    "srt": 2771,
-    "sts": 1,
-    "tp": "NEW",
-    "in": "F20231212134653168sG8QNAU8Dhtt9x",
-    "fot": 1702447200000,
-    "ot": 1702447200000,
-    "cp": [],
-    "ci": [],
-    "ps": 4,
-    "qs": 2,
-    "cdm": 1,
-    "st": 1,
-    "dst": 1,
-    "tt": 1,
-    "ca": "0x6b66ccd1340c479B07B390d326eaDCbb84E726Ba"
   },
   {
     "id": "4a46a9eeeca44120bc11a6eea0e58ca6",
@@ -16669,7 +16929,7 @@
     "ot": 1745827200000,
     "cp": [],
     "ci": [],
-    "ps": 12,
+    "ps": 14,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -18476,7 +18736,7 @@
     "ot": 1749376800000,
     "cp": [],
     "ci": [],
-    "ps": 4,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -18774,28 +19034,6 @@
     "ca": "0xA0CF89eE581313D84d28409Eb6BB1D1F9B55d410"
   },
   {
-    "id": "9fcf527daf2c4db29015f51716f62c85",
-    "mcd": "128f589271cb4951b03e71e6323eb7be",
-    "cd": "fd00e883cf6b467eb2fd1f70300713d0",
-    "vn": "BETA",
-    "fn": "Beta Token",
-    "srt": 235,
-    "sts": 1,
-    "tp": "NEW",
-    "in": "F20211008200029504YmAa9sgQDnqdii",
-    "fot": 1633698000000,
-    "ot": 1633698000000,
-    "cp": [],
-    "ci": [],
-    "ps": 7,
-    "qs": 2,
-    "cdm": 1,
-    "st": 1,
-    "dst": 1,
-    "tt": 1,
-    "ca": "0xbe1a001fe942f96eea22ba08783140b9dcc09d28"
-  },
-  {
     "id": "b3544a6ed4be4c819ff27b7dec0ada69",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "ab474aa7ce6045aa99a0dd17f02efb35",
@@ -18816,6 +19054,28 @@
     "dst": 1,
     "tt": 1,
     "ca": "0xC23E4352cdBa6Fc951398bf274619C4529eAc867"
+  },
+  {
+    "id": "9fcf527daf2c4db29015f51716f62c85",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "fd00e883cf6b467eb2fd1f70300713d0",
+    "vn": "BETA",
+    "fn": "Beta Token",
+    "srt": 235,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20211008200029504YmAa9sgQDnqdii",
+    "fot": 1633698000000,
+    "ot": 1633698000000,
+    "cp": [],
+    "ci": [],
+    "ps": 7,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0xbe1a001fe942f96eea22ba08783140b9dcc09d28"
   },
   {
     "id": "78c1744f3eca44ccb374883adc6a37e2",
@@ -19058,28 +19318,6 @@
     "ca": ""
   },
   {
-    "id": "80c44536e1ed48d5bde8907148ff4886",
-    "mcd": "128f589271cb4951b03e71e6323eb7be",
-    "cd": "c4605e4d385245499eccfacf1a39e687",
-    "vn": "SOH",
-    "fn": "Stohn Coin",
-    "srt": 5750,
-    "sts": 1,
-    "tp": "ASSESS",
-    "in": "F20250109090300958wDsP3hoWIGQtMl",
-    "fot": 1736496000000,
-    "ot": 1736496000000,
-    "cp": [],
-    "ci": [],
-    "ps": 5,
-    "qs": 2,
-    "cdm": 1,
-    "st": 1,
-    "dst": 1,
-    "tt": 1,
-    "ca": ""
-  },
-  {
     "id": "2d578e590c414ef19c2ab7fd121d2de2",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "8b46446feb7d4eb3a095f2b845fb7146",
@@ -19106,6 +19344,28 @@
     "dst": 1,
     "tt": 1,
     "ca": "0xcf5104D094e3864CfCBDa43B82e1cEFD26A016eB"
+  },
+  {
+    "id": "80c44536e1ed48d5bde8907148ff4886",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "c4605e4d385245499eccfacf1a39e687",
+    "vn": "SOH",
+    "fn": "Stohn Coin",
+    "srt": 5750,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250109090300958wDsP3hoWIGQtMl",
+    "fot": 1736496000000,
+    "ot": 1736496000000,
+    "cp": [],
+    "ci": [],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": ""
   },
   {
     "id": "8dd47460b12e47979f7850db714c3c9a",
@@ -19268,7 +19528,7 @@
     "ci": [
       34
     ],
-    "ps": 4,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -19396,6 +19656,32 @@
     "dst": 1,
     "tt": 1,
     "ca": "EQAuLb7CVa_3OLRsPisEBrZrhwlWV2INgwwesJ-hKKH3Qnj0"
+  },
+  {
+    "id": "d78b82ca9ae743a78014d4989ef87bc4",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "42d106bfa0334d18bf73c7f744561edd",
+    "vn": "RVX",
+    "fn": "RevX",
+    "srt": 6805,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F202506301359087809UO5cgPbnFn5jt",
+    "fot": 1751439600000,
+    "ot": 1751439600000,
+    "cp": [
+      "mc-trade-zone-ai"
+    ],
+    "ci": [
+      23
+    ],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0xC3Ae1783F89bb5bfe99fF655382EFC6ce71A818d"
   },
   {
     "id": "cc1c1075f75a48168fd3bb24d778e2b2",
@@ -20508,6 +20794,32 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x5Cc81ea325e9Ff9d496F4997750b8f6667f1c63c"
+  },
+  {
+    "id": "549cd4c0401d4fdea5e1cb07703198bd",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "d58ee82d45824378b834d60aa61cefa6",
+    "vn": "SOLAXY",
+    "fn": "Solaxy",
+    "srt": 6806,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F202506301729255959N60UVLixWHiGN",
+    "fot": 1751443200000,
+    "ot": 1751443200000,
+    "cp": [
+      "mc-trade-zone-SOL"
+    ],
+    "ci": [
+      37
+    ],
+    "ps": 7,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0xe0B7AD7F8F26e2b00C8b47b5Df370f15F90fCF48"
   },
   {
     "id": "c2a9a6cf987a4390a22d1cfb6ff50c00",
@@ -21830,7 +22142,7 @@
     "fn": "Cashaa",
     "srt": 52,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20210419133422421qq19tTrnUhSXzs",
     "fot": 1588939200000,
     "ot": 1588939200000,
@@ -22071,7 +22383,7 @@
     "ci": [
       19
     ],
-    "ps": 4,
+    "ps": 5,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -24045,34 +24357,6 @@
     "ca": ""
   },
   {
-    "id": "8f56bde6b09e48c9be3186a10f86cab1",
-    "mcd": "128f589271cb4951b03e71e6323eb7be",
-    "cd": "43631f0ff5a6459aa8890109f7ec9ad9",
-    "vn": "AIMONICA",
-    "fn": "Aimonica Brands",
-    "srt": 5564,
-    "sts": 1,
-    "tp": "NEW",
-    "in": "F20241217182939518kWvUL1ChNFmDnn",
-    "fot": 1734616800000,
-    "ot": 1734616800000,
-    "cp": [
-      "mc-trade-zone-MEME",
-      "mc-trade-zone-AIAGENT"
-    ],
-    "ci": [
-      29,
-      47
-    ],
-    "ps": 6,
-    "qs": 2,
-    "cdm": 1,
-    "st": 1,
-    "dst": 1,
-    "tt": 1,
-    "ca": "FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5"
-  },
-  {
     "id": "a324258a8ec14e49b9196093d3c2a279",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "0c3c240468e24978b9148f4ee8cb4c09",
@@ -24099,6 +24383,34 @@
     "dst": 1,
     "tt": 1,
     "ca": "8sWKTMrh9bWUrvykK4H3jzEzGbEqvJNpS2f7joYKpump"
+  },
+  {
+    "id": "8f56bde6b09e48c9be3186a10f86cab1",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "43631f0ff5a6459aa8890109f7ec9ad9",
+    "vn": "AIMONICA",
+    "fn": "Aimonica Brands",
+    "srt": 5564,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20241217182939518kWvUL1ChNFmDnn",
+    "fot": 1734616800000,
+    "ot": 1734616800000,
+    "cp": [
+      "mc-trade-zone-MEME",
+      "mc-trade-zone-AIAGENT"
+    ],
+    "ci": [
+      29,
+      47
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5"
   },
   {
     "id": "147aa032d4ed46b08269c49dfe884504",
@@ -24534,7 +24846,7 @@
     "ci": [
       23
     ],
-    "ps": 26,
+    "ps": 28,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -25327,7 +25639,7 @@
       23,
       47
     ],
-    "ps": 20,
+    "ps": 23,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -25353,7 +25665,7 @@
     "ci": [
       47
     ],
-    "ps": 6,
+    "ps": 7,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -26161,6 +26473,34 @@
     "ca": "0xBe0D3526fc797583Dada3F30BC390013062A048B"
   },
   {
+    "id": "2abefe80cca74ea6abea7a2529bfcc43",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "97e59824c98a42db8e4c7bf7124cbc0d",
+    "vn": "BLUECHIP",
+    "fn": "Blue Chip",
+    "srt": 6830,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250702182114391A3AUMMpThKA5yR",
+    "fot": 1751452800000,
+    "ot": 1751452800000,
+    "cp": [
+      "mc-trade-zone-newlisting2",
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      44,
+      29
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "DHJVYXsikcimtcVo49FAZqYd1XPYPaXezYhbKArJbonk"
+  },
+  {
     "id": "a808094121a14fbb9516b33aa4d49e08",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "12953056db06493b9dc967a53b9ee090",
@@ -26260,7 +26600,7 @@
       34,
       19
     ],
-    "ps": 6,
+    "ps": 7,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -26787,7 +27127,7 @@
     "fn": "Infiblue World",
     "srt": 2169,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20230715235726987J5qvi2ziNy4iB3",
     "fot": 1689494400000,
     "ot": 1689494400000,
@@ -27415,6 +27755,34 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x76131b6D0ec94057e6dC6352adDa76B8165E08ab"
+  },
+  {
+    "id": "e05f762f803b473fa046b7b6fe530d0c",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "b5b25feb4cc641f493f3bb00dba4adb8",
+    "vn": "COINX",
+    "fn": "Coinbase xStock",
+    "srt": 6812,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250701182948506bVnaMHLE0MpOwV",
+    "fot": 1751365800000,
+    "ot": 1751365800000,
+    "cp": [
+      "mc-trade-zone-xStocks",
+      "mc-trade-zone-0fees"
+    ],
+    "ci": [
+      56,
+      45
+    ],
+    "ps": 2,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu"
   },
   {
     "id": "3ba6c02b10794631b8a311d3fcc1520c",
@@ -29267,7 +29635,7 @@
     "ci": [
       29
     ],
-    "ps": 16,
+    "ps": 19,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -29523,7 +29891,7 @@
     "vn": "OCMT",
     "fn": "OnChainMetrics",
     "srt": 6793,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250627154030774soLgHNN3NfMFHs",
     "fot": 1751270400000,
@@ -29533,9 +29901,9 @@
     "ps": 5,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "0xd4D46a39e8341e26f56BEbDcaCC2894a1CD121eA"
   },
   {
@@ -29791,7 +30159,7 @@
     "ci": [
       23
     ],
-    "ps": 4,
+    "ps": 5,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -30261,7 +30629,7 @@
     "fn": "MoonEdge",
     "srt": 5983,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F2025020317580641553F6PFn8jhKrqL",
     "fot": 1738753200000,
     "ot": 1738753200000,
@@ -30352,19 +30720,23 @@
     "vn": "FRAG",
     "fn": "Fragmetric",
     "srt": 6790,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
-    "in": "F202506281448106486NSeEZ1nWV0VsR",
+    "in": "F20250630172313571LGKkXaFTXGtB0z",
     "fot": 1751358600000,
     "ot": 1751358600000,
-    "cp": [],
-    "ci": [],
+    "cp": [
+      "mc-trade-zone-SOL"
+    ],
+    "ci": [
+      37
+    ],
     "ps": 5,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "FRAGMEWj2z65qM62zqKhNtwNFskdfKs4ekDUDX3b4VD5"
   },
   {
@@ -30450,19 +30822,19 @@
     "vn": "G8D",
     "fn": "G8Day",
     "srt": 6795,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250626220757738bhaHvYtX2ipYmD",
     "fot": 1751277600000,
     "ot": 1751277600000,
     "cp": [],
     "ci": [],
-    "ps": 5,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "0x00E2a5eb6369BE46a35dA704B9b6D3711ed70186"
   },
   {
@@ -30893,7 +31265,7 @@
     "fn": "5thScape",
     "srt": 5998,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20250206140710588es4IbYmHKY97pt",
     "fot": 1738922400000,
     "ot": 1738922400000,
@@ -31370,7 +31742,7 @@
     "ci": [
       35
     ],
-    "ps": 7,
+    "ps": 8,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -33820,28 +34192,6 @@
     "ca": "0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5"
   },
   {
-    "id": "a8a33a57ea7a4676b24b13b6a229b5c7",
-    "mcd": "128f589271cb4951b03e71e6323eb7be",
-    "cd": "f16fdb7fc3444d06886af98d8156110e",
-    "vn": "XDC",
-    "fn": "XDC Network",
-    "srt": 2793,
-    "sts": 1,
-    "tp": "MAIN",
-    "in": "F20211220113145669QCopFvdIXOPXoA",
-    "fot": 1702652400000,
-    "ot": 1702652400000,
-    "cp": [],
-    "ci": [],
-    "ps": 5,
-    "qs": 2,
-    "cdm": 1,
-    "st": 1,
-    "dst": 1,
-    "tt": 1,
-    "ca": ""
-  },
-  {
     "id": "2c05a960dbba4775bc890eb9d5a111a7",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "013e7e36cf684418b0a1a36dfc79ffc2",
@@ -33862,6 +34212,28 @@
     "dst": 1,
     "tt": 1,
     "ca": "0xa1f410f13B6007fCa76833ee7eb58478D47Bc5Ef"
+  },
+  {
+    "id": "a8a33a57ea7a4676b24b13b6a229b5c7",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "f16fdb7fc3444d06886af98d8156110e",
+    "vn": "XDC",
+    "fn": "XDC Network",
+    "srt": 2793,
+    "sts": 1,
+    "tp": "MAIN",
+    "in": "F20211220113145669QCopFvdIXOPXoA",
+    "fot": 1702652400000,
+    "ot": 1702652400000,
+    "cp": [],
+    "ci": [],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": ""
   },
   {
     "id": "91e561f9808c4ff0a1ccb3fcda7004e1",
@@ -34343,7 +34715,7 @@
     "vn": "VULPEFI",
     "fn": "VulpeFi",
     "srt": 6798,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250626164306850vwmM8PQrYaL6Ey",
     "fot": 1751292000000,
@@ -34353,9 +34725,9 @@
     "ps": 5,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "0x7677cFEb8caD684a1a6C9a8CB1335E680065D11e"
   },
   {
@@ -36451,7 +36823,7 @@
     "fn": "Archway",
     "srt": 4598,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20240717110520059GTD93Y7WYFsDRX",
     "fot": 1721214000000,
     "ot": 1721214000000,
@@ -36675,7 +37047,7 @@
     "ci": [
       35
     ],
-    "ps": 5,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -37609,6 +37981,34 @@
     "dst": 1,
     "tt": 1,
     "ca": "nanomobx"
+  },
+  {
+    "id": "dc71e2c951104a4b8d9db184f5ee67c7",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "ffcc17cf66284c80a90911aceaccc21e",
+    "vn": "WBSC",
+    "fn": "W",
+    "srt": 6814,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250701212755366usuaZU7FcXLoUI",
+    "fot": 1751377800000,
+    "ot": 1751377800000,
+    "cp": [
+      "mc-trade-zone-newlisting2",
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      44,
+      29
+    ],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0x19683a9d2a31508847a026DfE77f53A05A084444"
   },
   {
     "id": "4bb32b1c6b604d78bdfad8427835a487",
@@ -39386,28 +39786,6 @@
     "ca": "0xef0fd52e65DdcDc201E2055a94D2aBff6fF10a7a"
   },
   {
-    "id": "428fcb1fa5364e07b1e9553e617e1460",
-    "mcd": "128f589271cb4951b03e71e6323eb7be",
-    "cd": "30d6e9b91935445cb2fc918490677a79",
-    "vn": "FUSIO",
-    "fn": "FUSIO by BlockGuard",
-    "srt": 6680,
-    "sts": 1,
-    "tp": "NEW",
-    "in": "F20250610165836603QwYesGyFEbgYgt",
-    "fot": 1749654000000,
-    "ot": 1749654000000,
-    "cp": [],
-    "ci": [],
-    "ps": 6,
-    "qs": 2,
-    "cdm": 1,
-    "st": 1,
-    "dst": 1,
-    "tt": 1,
-    "ca": "0x4A13A71d29b4e678497efD4D230c5e324CB9e5c7"
-  },
-  {
     "id": "635c273e1c0d42a6920ed4f388fc6ab8",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "3b5cdfd700ed4c88a214dc6d50db2d1b",
@@ -40337,19 +40715,19 @@
     "vn": "TICS",
     "fn": "TICS",
     "srt": 6796,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250629200929332P6OOwOmNl7WqSe",
     "fot": 1751281200000,
     "ot": 1751281200000,
     "cp": [],
     "ci": [],
-    "ps": 5,
+    "ps": 4,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": ""
   },
   {
@@ -41694,7 +42072,7 @@
     "ci": [
       23
     ],
-    "ps": 7,
+    "ps": 8,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -42583,6 +42961,34 @@
     "ca": "0x98d328DAA531c36A86EFDAb6015EE9a8320C2747"
   },
   {
+    "id": "ca1e24142a8d4158b6ce80dfb7fb9ff1",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "3609d712dc3d4eaeba2c48c01963afa0",
+    "vn": "SIF",
+    "fn": "Solana Index Fund",
+    "srt": 6813,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250701142232281LcLUHttaEO7Ota",
+    "fot": 1751352300000,
+    "ot": 1751352300000,
+    "cp": [
+      "mc-trade-zone-newlisting2",
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      44,
+      29
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "GSdtu9Nm7kZ1x8ddtisXFthzxFM5CmuMrSnBFfnHokm6"
+  },
+  {
     "id": "be4fd657a54c435693dc52844d3e8e1f",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "d79375a39dc845a086b84a27468a0686",
@@ -43138,7 +43544,7 @@
     "ci": [
       19
     ],
-    "ps": 4,
+    "ps": 5,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -43582,7 +43988,7 @@
     "fn": "Ordify",
     "srt": 3916,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20240408160959433Fbke7mBf6uqDWI",
     "fot": 1712746800000,
     "ot": 1712746800000,
@@ -43873,7 +44279,7 @@
     "ot": 1721980800000,
     "cp": [],
     "ci": [],
-    "ps": 4,
+    "ps": 5,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -45163,7 +45569,7 @@
     "fn": "Mnemonics",
     "srt": 5302,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20241111225504414INH9st3UW1quX4",
     "fot": 1732176000000,
     "ot": 1732176000000,
@@ -45202,6 +45608,32 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x52A8845DF664D76C69d2EEa607CD793565aF42B8"
+  },
+  {
+    "id": "4252fce731a24297a4a80ae84c01e0b8",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "04d875c4a02641ff82e40e5a78c35a35",
+    "vn": "SOGNI",
+    "fn": "Sogni AI",
+    "srt": 6810,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250630210529035i2MwrUtnTJ6UKA",
+    "fot": 1751457600000,
+    "ot": 1751457600000,
+    "cp": [
+      "mc-trade-zone-ai"
+    ],
+    "ci": [
+      23
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0xE014d2A4da6E450f21b5050120D291e63c8940FD"
   },
   {
     "id": "122814fa5c4a4a1f843e48dc44140380",
@@ -45490,6 +45922,28 @@
     "dst": 1,
     "tt": 1,
     "ca": "0xDfc7C877a950e49D2610114102175A06C2e3167a"
+  },
+  {
+    "id": "07a5469e849d4d539a0a584b509b1404",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "e4e7a0db8b8c4bc2ac4f31b3a2e76d23",
+    "vn": "B3TR",
+    "fn": "B3TR",
+    "srt": 6801,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F202506281733279223QpIbq6FR7bRKu",
+    "fot": 1751374800000,
+    "ot": 1751374800000,
+    "cp": [],
+    "ci": [],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0x5ef79995fe8a89e0812330e4378eb2660cede699"
   },
   {
     "id": "ab98604d8cb948acbdee09c666c5be89",
@@ -46360,7 +46814,7 @@
     "fn": "VaporFund",
     "srt": 2994,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20240103183416387Fc39LQobY9AvAB",
     "fot": 1704362400000,
     "ot": 1704362400000,
@@ -46983,19 +47437,19 @@
     "vn": "INFOFI",
     "fn": "WAGMI HUB",
     "srt": 6747,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250622095137591iuGkT8gZa7AsGq",
     "fot": 1751277600000,
     "ot": 1751277600000,
     "cp": [],
     "ci": [],
-    "ps": 5,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "2RHWryP5nYjVo747tMe67DdE7i95LmPRRBV1PooF9nGg"
   },
   {
@@ -47581,6 +48035,32 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x3E12b9d6A4D12cd9b4a6d613872d0Eb32f68b380"
+  },
+  {
+    "id": "6a18d379e03547fca0a8ad8805736aec",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "918d8bb1297848bcb29e5eae1d207324",
+    "vn": "PX",
+    "fn": "PX",
+    "srt": 6800,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250627190537937qcbdFQb0xDPJpT",
+    "fot": 1751364000000,
+    "ot": 1751364000000,
+    "cp": [
+      "mc-trade-zone-TON"
+    ],
+    "ci": [
+      42
+    ],
+    "ps": 4,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "EQB420yQsZobGcy0VYDfSKHpG2QQlw-j1f_tPu1J488I__PX"
   },
   {
     "id": "a73f7d4bc23046ecbcc75776da54b5cb",
@@ -48278,6 +48758,32 @@
     "ca": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354"
   },
   {
+    "id": "afda1ebf129f436fb261104e42adacc8",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "d497acfe204444c4900ad7aacf625fbf",
+    "vn": "ARW",
+    "fn": "Arowana",
+    "srt": 6809,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250630174236116zZyDiJVCgVABRZ",
+    "fot": 1751454000000,
+    "ot": 1751454000000,
+    "cp": [
+      "mc-trade-zone-RWA"
+    ],
+    "ci": [
+      34
+    ],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0x747952A59292a9B3862F3C59664B95e8B461eF45"
+  },
+  {
     "id": "924eaed554ee4961a764b010a8b9f9ea",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "ec1755a974af4498a9269b890502c686",
@@ -48480,7 +48986,7 @@
     "fn": "Edu3Labs",
     "srt": 3498,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20240306151815455KSuhsaeo4gClkX",
     "fot": 1709794800000,
     "ot": 1709794800000,
@@ -49042,7 +49548,7 @@
     "ot": 1748520000000,
     "cp": [],
     "ci": [],
-    "ps": 5,
+    "ps": 7,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -50965,7 +51471,7 @@
     "fn": "XCarnival",
     "srt": 315,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20211118011231820MLrsVHlnHP616P",
     "fot": 1637308800000,
     "ot": 1637308800000,
@@ -52163,7 +52669,7 @@
     "ci": [
       29
     ],
-    "ps": 24,
+    "ps": 26,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -52552,7 +53058,7 @@
     "vn": "GO",
     "fn": "NodeGO Token",
     "srt": 6797,
-    "sts": 2,
+    "sts": 1,
     "tp": "NEW",
     "in": "F20250628200509093KmkRYVeVKD2dNW",
     "fot": 1751288400000,
@@ -52562,9 +53068,9 @@
     "ps": 5,
     "qs": 2,
     "cdm": 1,
-    "st": 2,
+    "st": 1,
     "dst": 1,
-    "tt": 4,
+    "tt": 1,
     "ca": "77LQG7ZT5FzkqikyTzmfQMe12qPrAYkYgbjB6ygo83dt"
   },
   {
@@ -53334,7 +53840,7 @@
     "fn": "BSX Protocol",
     "srt": 5806,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20250114133835582uxOzX6e4M9hPev",
     "fot": 1737021600000,
     "ot": 1737021600000,
@@ -53483,12 +53989,10 @@
     "fot": 1749636120000,
     "ot": 1749636120000,
     "cp": [
-      "mc-trade-zone-newlisting2",
-      "mc-trade-zone-0fees"
+      "mc-trade-zone-newlisting2"
     ],
     "ci": [
-      44,
-      45
+      44
     ],
     "ps": 5,
     "qs": 2,
@@ -53804,7 +54308,7 @@
     "fn": "PrivateAI.com",
     "srt": 4920,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20240909151718297N5HpScfyKemGeV",
     "fot": 1725973200000,
     "ot": 1725973200000,
@@ -54461,7 +54965,7 @@
     "ci": [
       23
     ],
-    "ps": 22,
+    "ps": 25,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -54613,7 +55117,7 @@
     "ci": [
       23
     ],
-    "ps": 4,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -54793,7 +55297,7 @@
     "ci": [
       36
     ],
-    "ps": 5,
+    "ps": 6,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -56287,6 +56791,34 @@
     "ca": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b"
   },
   {
+    "id": "bb718c3275aa4f84ab6e8af44072e61a",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "e5193424c73b48db8b35eb196de6cff9",
+    "vn": "GRDM",
+    "fn": "GridiumAI",
+    "srt": 6815,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F202507012129027833Lz8GmsFQvkqCX",
+    "fot": 1751378400000,
+    "ot": 1751378400000,
+    "cp": [
+      "mc-trade-zone-newlisting2",
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      44,
+      29
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0xF625B131336b4544907e160507aa8d8568104444"
+  },
+  {
     "id": "eb8642664b4f40d698474b0e74466879",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "e9e73936a91e4241a145bbe5a0d1294a",
@@ -57177,7 +57709,7 @@
     "ci": [
       23
     ],
-    "ps": 12,
+    "ps": 13,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -58008,7 +58540,7 @@
     "fn": "LumiShare",
     "srt": 2241,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20230807161455707EpHbtzaO3aTh2a",
     "fot": 1691510400000,
     "ot": 1691510400000,
@@ -58123,6 +58655,32 @@
     "dst": 1,
     "tt": 1,
     "ca": "HWrgYyGdivwuxV2ePxbk6vwkrKYqMa7is9fYMm5kcQWY"
+  },
+  {
+    "id": "968d8ad699ee427197186b67ba7d3369",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "760570a72d6d475d9f400c40d57472ea",
+    "vn": "NUTX",
+    "fn": "NUTX Chain",
+    "srt": 6819,
+    "sts": 2,
+    "tp": "NEW",
+    "in": "F20250630200109690fq34qWZiVR6Bog",
+    "fot": 1751526000000,
+    "ot": 1751526000000,
+    "cp": [
+      "mc-trade-zone-ai"
+    ],
+    "ci": [
+      23
+    ],
+    "ps": 11,
+    "qs": 0,
+    "cdm": 1,
+    "st": 2,
+    "dst": 1,
+    "tt": 4,
+    "ca": "28HjD7NbagvuNcUUtHJ9673YWPHsEL8x4B44ksJqsLdN"
   },
   {
     "id": "acd01af8111947b5a135fe763d8b3816",
@@ -59045,7 +59603,7 @@
     "ci": [
       3
     ],
-    "ps": 3,
+    "ps": 4,
     "qs": 2,
     "cdm": 0,
     "st": 1,
@@ -59272,6 +59830,32 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x26216a433A548Bd870C5bE156d8334F578B380dC"
+  },
+  {
+    "id": "6230b60c11284a13b943deb50ba136b1",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "08b849e478344d2d9fee99c79c06a297",
+    "vn": "PYN",
+    "fn": "Paynetic",
+    "srt": 6799,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250630150922596NV7R5IQbfVmyD2",
+    "fot": 1751353200000,
+    "ot": 1751353200000,
+    "cp": [
+      "mc-trade-zone-ai"
+    ],
+    "ci": [
+      23
+    ],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0x26b20EA5c29b12AbEB27b521045D823b24222fC8"
   },
   {
     "id": "b238848741874e539b4b5b10520ad59c",
@@ -61464,7 +62048,7 @@
     "fn": "MongolNFT",
     "srt": 1787,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20230423171849986yMW4X2Cp4UUYlV",
     "fot": 1682510400000,
     "ot": 1682510400000,
@@ -62754,12 +63338,10 @@
     "ot": 1749553200000,
     "cp": [
       "mc-trade-zone-newlisting2",
-      "mc-trade-zone-0fees",
       "mc-trade-zone-MEME"
     ],
     "ci": [
       44,
-      45,
       29
     ],
     "ps": 5,
@@ -62817,6 +63399,32 @@
     "dst": 1,
     "tt": 1,
     "ca": ""
+  },
+  {
+    "id": "2d1de0ebf25843a1b33601cca4c79273",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "3c50b0ff40db4ac4ac76b5bf05c33013",
+    "vn": "XTM",
+    "fn": "Torum",
+    "srt": 442,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F20250630142328605NHBBEO4wxDYM2V",
+    "fot": 1751450400000,
+    "ot": 1751450400000,
+    "cp": [
+      "mc-trade-zone-nft"
+    ],
+    "ci": [
+      3
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0x443cAb9583B83eAA7A712c9D64525E57E2a7eB3f"
   },
   {
     "id": "6e6b4a49adb94382a285c4c7e5fd6ad2",
@@ -63040,6 +63648,28 @@
     "dst": 1,
     "tt": 1,
     "ca": "0xB7b37b81d4497AB317fc9d4A370CF243043d6bBe"
+  },
+  {
+    "id": "949754be92d64b0b92722097f44a373b",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "06a28219897b4bb19b2ae7ac6fc2e40a",
+    "vn": "SAFFRONFI",
+    "fn": "Spice",
+    "srt": 79,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F202506301959346638v3acH55Mi9i4W",
+    "fot": 1751446800000,
+    "ot": 1751446800000,
+    "cp": [],
+    "ci": [],
+    "ps": 2,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0xb753428af26e81097e7fd17f40c88aaa3e04902c"
   },
   {
     "id": "f2a30c95f4334c28b8f7013b5f166af3",
@@ -65232,7 +65862,7 @@
     "ci": [
       35
     ],
-    "ps": 14,
+    "ps": 17,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -66176,7 +66806,7 @@
     "ci": [
       19
     ],
-    "ps": 15,
+    "ps": 17,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -66250,7 +66880,7 @@
     "ci": [
       40
     ],
-    "ps": 18,
+    "ps": 19,
     "qs": 2,
     "cdm": 1,
     "st": 1,
@@ -66792,7 +67422,7 @@
     "fn": "myDid",
     "srt": 1697,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20230330153824337POaCDNN4zxDZng",
     "fot": 1710334800000,
     "ot": 1710334800000,
@@ -66909,6 +67539,34 @@
     "ca": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
   },
   {
+    "id": "90f06d5c72a647f5aff0d41b9dc70ae8",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "cd42877afb9d4c0fa55d514cac7980ea",
+    "vn": "FROGGIE",
+    "fn": "Froggie",
+    "srt": 6804,
+    "sts": 1,
+    "tp": "ASSESS",
+    "in": "F20250630152727297EXPqHU6WlucelT",
+    "fot": 1751269500000,
+    "ot": 1751269500000,
+    "cp": [
+      "mc-trade-zone-newlisting2",
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      44,
+      29
+    ],
+    "ps": 6,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "0xA45F5EB48CeCd034751651aeeda6271Bd5df8888"
+  },
+  {
     "id": "9ab7eea7e19b487facd3818eed149927",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "72b2395940fe4c5a9e7ad83d8b86f6ad",
@@ -67007,6 +67665,32 @@
     "dst": 1,
     "tt": 1,
     "ca": "0xBb6cDedac5CaB4A420211a4A8e8B5DCA879B31De"
+  },
+  {
+    "id": "59c8a192de9b4a8aaeac243f4c4979b6",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "267af311cd0c42b5a95131ef6fc5dc3b",
+    "vn": "GAME",
+    "fn": "GAME",
+    "srt": 6807,
+    "sts": 1,
+    "tp": "NEW",
+    "in": "F202507011132497335JUjdAtS84f4hp",
+    "fot": 1751443200000,
+    "ot": 1751443200000,
+    "cp": [
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      29
+    ],
+    "ps": 4,
+    "qs": 2,
+    "cdm": 1,
+    "st": 1,
+    "dst": 1,
+    "tt": 1,
+    "ca": "EQAKpERMdgBE4TV7bcSPyQMeYAQ2xfR6vFNNQd99cx3kzzyf"
   },
   {
     "id": "b4f3db117948420eae88f31029843255",
@@ -67874,6 +68558,32 @@
     "dst": 1,
     "tt": 1,
     "ca": "0x26c8AFBBFE1EBaca03C2bB082E69D0476Bffe099"
+  },
+  {
+    "id": "486c3f40e8c54a80aa970aa8c2bb216b",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "ee128170e2f24fcca7e9710a9a5259b7",
+    "vn": "SPONGE",
+    "fn": "Sponge Bob",
+    "srt": 6823,
+    "sts": 2,
+    "tp": "NEW",
+    "in": "F20250702124820069pRzo9hb6nrEluV",
+    "fot": 1751540400000,
+    "ot": 1751540400000,
+    "cp": [
+      "mc-trade-zone-MEME"
+    ],
+    "ci": [
+      29
+    ],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 2,
+    "dst": 1,
+    "tt": 4,
+    "ca": "0x03BFB0F2536E82569D1DC54f0d1cB36A57105eC6"
   },
   {
     "id": "a320e22a54a747ab81d385f13837656d",
@@ -70396,6 +71106,28 @@
     "ca": "0xc9E503562d0Db0A2629288a5D3b1c94Ea7741869"
   },
   {
+    "id": "bbf0bf5ae729467086c9866c24b50f66",
+    "mcd": "128f589271cb4951b03e71e6323eb7be",
+    "cd": "08a3928ae0594ec8ad42fbee5e78ee26",
+    "vn": "ICNT",
+    "fn": "ICN Protocol",
+    "srt": 6822,
+    "sts": 2,
+    "tp": "NEW",
+    "in": "F20250702180353131qjyAWXylsp3ejY",
+    "fot": 1751536800000,
+    "ot": 1751536800000,
+    "cp": [],
+    "ci": [],
+    "ps": 5,
+    "qs": 2,
+    "cdm": 1,
+    "st": 2,
+    "dst": 1,
+    "tt": 4,
+    "ca": "0xE0Cd4cAcDdcBF4f36e845407CE53E87717b6601d"
+  },
+  {
     "id": "7efa5b966fbf42e192cd2b147fd8fdeb",
     "mcd": "128f589271cb4951b03e71e6323eb7be",
     "cd": "f19ec06c95ff4ec5bc8fcc0c53c73691",
@@ -70451,7 +71183,7 @@
     "fn": "Changer",
     "srt": 1610,
     "sts": 1,
-    "tp": "ASSESS",
+    "tp": "NEW",
     "in": "F20230701184318920RuahGcTdqOD3jk",
     "fot": 1679040000000,
     "ot": 1679040000000,

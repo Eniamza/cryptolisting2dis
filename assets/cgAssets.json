@@ -87673,5 +87673,100 @@
     "id": "mumu",
     "symbol": "mumu",
     "name": "Mumu"
+  },
+  "anonymouscodingcult": {
+    "id": "anonymouscodingcult",
+    "symbol": "acc",
+    "name": "AnonymousCodingCult"
+  },
+  "es1m": {
+    "id": "es1m",
+    "symbol": "es1m",
+    "name": "eS1M"
+  },
+  "invest-to-earn": {
+    "id": "invest-to-earn",
+    "symbol": "invest",
+    "name": "INVEST TO EARN"
+  },
+  "liquid-hydra": {
+    "id": "liquid-hydra",
+    "symbol": "lydra",
+    "name": "Liquid Hydra"
+  },
+  "midas-mf-one": {
+    "id": "midas-mf-one",
+    "symbol": "mf-one",
+    "name": "Midas mF-ONE"
+  },
+  "sto-chain": {
+    "id": "sto-chain",
+    "symbol": "stoc",
+    "name": "STO Chain"
+  },
+  "vulpe-finance": {
+    "id": "vulpe-finance",
+    "symbol": "vulpefi",
+    "name": "Vulpe Finance"
+  },
+  "wrapped-hydra": {
+    "id": "wrapped-hydra",
+    "symbol": "whydra",
+    "name": "Wrapped Hydra"
+  },
+  "fragmetric": {
+    "id": "fragmetric",
+    "symbol": "frag",
+    "name": "Fragmetric"
+  },
+  "initia-bridged-usdc-initia": {
+    "id": "initia-bridged-usdc-initia",
+    "symbol": "usdc",
+    "name": "Initia Bridged USDC (Initia)"
+  },
+  "aiva": {
+    "id": "aiva",
+    "symbol": "aiva",
+    "name": "AIVA"
+  },
+  "felysyum": {
+    "id": "felysyum",
+    "symbol": "fely",
+    "name": "Felysyum"
+  },
+  "licko-2": {
+    "id": "licko-2",
+    "symbol": "licko",
+    "name": "LICKO"
+  },
+  "live-ai": {
+    "id": "live-ai",
+    "symbol": "lau",
+    "name": "Live Ai"
+  },
+  "scorch": {
+    "id": "scorch",
+    "symbol": "scorch",
+    "name": "SCORCH"
+  },
+  "cycle-2": {
+    "id": "cycle-2",
+    "symbol": "cyc",
+    "name": "CYCLE"
+  },
+  "descipher-fund": {
+    "id": "descipher-fund",
+    "symbol": "desci",
+    "name": "Descipher Fund"
+  },
+  "paynetic": {
+    "id": "paynetic",
+    "symbol": "pyn",
+    "name": "Paynetic"
+  },
+  "tren-protocol-token": {
+    "id": "tren-protocol-token",
+    "symbol": "tren",
+    "name": "TREN Protocol Token"
   }
 }
