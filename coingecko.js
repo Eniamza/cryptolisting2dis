@@ -58,7 +58,7 @@ async function fetchAssetDetails(tokenID) {
             categories: assetDetails.categories,
             homepage: assetDetails.links?.homepage[0] || "Not Available",
             blockchain_site: assetDetails.links?.blockchain_site[0] || "Not Available",
-            image: assetDetails.image?.small,
+            image: assetDetails.image?.small.includes("missing") ? "https://www.coingecko.com/favicon-32x32.png" : assetDetails.image?.small,
             watchedBy: assetDetails.watchlist_portfolio_users,
             market_cap_rank: assetDetails.market_cap_rank,
             currPriceUSD: assetDetails.market_data.current_price.usd,
@@ -146,6 +146,11 @@ async function coinGeckoMonitor() {
                     );
                     console.log(`Message sent for: ${assetDetails.name} (${assetDetails.symbol})`);
                             // wait 2 seconds before sending the next message
+
+                        // Save the updated assets list to the JSON file
+                    Bun.write('./assets/cgAssets.json', JSON.stringify(cgAssets, null, 2))
+                    .then(() => console.log("Updated cgAssets.json with new asset."))
+                    .catch(err => console.error("Error writing to cgAssets.json:", err));
                     await new Promise(resolve => setTimeout(resolve, 2000));
                 }
             } else {
@@ -159,11 +164,6 @@ async function coinGeckoMonitor() {
 
 
     }
-
-    // Save the updated assets list to the JSON file
-    Bun.write('./assets/cgAssets.json', JSON.stringify(cgAssets, null, 2))
-    .then(() => console.log("Updated cgAssets.json with new asset."))
-    .catch(err => console.error("Error writing to cgAssets.json:", err));
 
 }
 
