@@ -19,7 +19,7 @@ async function fearGreedMonitor() {
         await ax.post(process.env.FEAR_WEBHOOK, {
             embeds: [embed],
             username: "Fear & Greed Index",
-            avatar_url: "https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+            avatar_url: "https://logos-world.net/wp-content/uploads/2020/08/Bitcoin-Logo.png"
 
         }).then(response => {
             console.log("Fear & Greed Index posted successfully:", response.data);
