@@ -28,7 +28,7 @@ async function coindeskMonitor() {
 
     let topExchangesBTC = await fetchTopExchangeByVolume("BTC");
     let topExchangesETH = await fetchTopExchangeByVolume("ETH");
-    let topExchangesBNB = await fetchTopExchangeByVolume("BNB");
+    // let topExchangesBNB = await fetchTopExchangeByVolume("BNB");
     let topExchangesXRP = await fetchTopExchangeByVolume("SOL");
 
     let topExchangesMerged = [...topExchangesBTC, ...topExchangesETH, ...topExchangesBNB, ...topExchangesXRP];
