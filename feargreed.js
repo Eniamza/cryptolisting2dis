@@ -9,7 +9,7 @@ async function fearGreedMonitor() {
         color: 0x00FF00, // Green color
         fields: [],
         image: {
-            url: "https://alternative.me/crypto/fear-and-greed-index.png"
+            url: `https://alternative.me/crypto/fear-and-greed-index.png?v=${Date.now()}`
         }
     };
 
