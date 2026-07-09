@@ -132,25 +132,39 @@ async function coinGeckoMonitor() {
             if (assetDetails) {
                 let message = await craftMessage(assetDetails);
                 if (message) {
-                    await ax.post(process.env.CG_WEBHOOK, 
-                        {
-                            embeds: [message],
-                            avatar_url: "https://www.coingecko.com/favicon-32x32.png",
-                            username: "CoinGecko Listing"
-                        }, 
-                        {
-                            headers: {
-                                'Content-Type': 'application/json'
-                            }
-                        }
-                    );
-                    console.log(`Message sent for: ${assetDetails.name} (${assetDetails.symbol})`);
-                            // wait 2 seconds before sending the next message
+                    const webhooks = process.env.CG_WEBHOOK ? process.env.CG_WEBHOOK.split(',') : [];
+                    
+                    for (const webhook of webhooks) {
+                        if (!webhook.trim()) continue;
 
-                        // Save the updated assets list to the JSON file
+                        try {
+                            await ax.post(webhook.trim(), 
+                                {
+                                    embeds: [message],
+                                    avatar_url: "https://www.coingecko.com/favicon-32x32.png",
+                                    username: "CoinGecko Listing"
+                                }, 
+                                {
+                                    headers: {
+                                        'Content-Type': 'application/json'
+                                    }
+                                }
+                            );
+                            console.log(`Message sent for: ${assetDetails.name} (${assetDetails.symbol})`);
+                        } catch (error) {
+                            console.error(`Error sending message for ${assetDetails.name}:`, error);
+                        }
+
+                        const delay = Math.floor(Math.random() * 5001) + 1000;
+                        await new Promise(resolve => setTimeout(resolve, delay));
+                    }
+
+                    // Save the updated assets list to the JSON file
                     Bun.write('./assets/cgAssets.json', JSON.stringify(cgAssets, null, 2))
                     .then(() => console.log("Updated cgAssets.json with new asset."))
                     .catch(err => console.error("Error writing to cgAssets.json:", err));
+
+                    // wait 2 seconds before sending the next message
                     await new Promise(resolve => setTimeout(resolve, 2000));
                 }
             } else {

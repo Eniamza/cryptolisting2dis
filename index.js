@@ -64,7 +64,7 @@ async function fetchAllUSDTList() {
     }
 }
 
-let sendMsg = function sendMessage(element,logourl){
+let sendMsg = async function sendMessage(element,logourl){
 
     const embed = {
         title: `${element.fn} ($${element.vn}) ✅`,
@@ -74,22 +74,31 @@ let sendMsg = function sendMessage(element,logourl){
         timestamp: new Date().toISOString()
       }
 
-    ax.post(process.env.MEXC_WEBHOOK, 
-        {
-            embeds: [embed],
-            avatar_url: logourl
-        }, 
-        {
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        }
-    ).then(response => {
-        console.log('Message sent for:', element.vn);
-    }).catch(error => {
-        console.error('Error:', error);
-    });
+    const webhooks = process.env.MEXC_WEBHOOK ? process.env.MEXC_WEBHOOK.split(',') : [];
+    
+    for (const webhook of webhooks) {
+        if (!webhook.trim()) continue;
 
+        try {
+            await ax.post(webhook.trim(), 
+                {
+                    embeds: [embed],
+                    avatar_url: logourl
+                }, 
+                {
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }
+            );
+            console.log('Message sent for:', element.vn);
+        } catch (error) {
+            console.error('Error:', error);
+        }
+        
+        const delay = Math.floor(Math.random() * 5001) + 1000;
+        await new Promise(resolve => setTimeout(resolve, delay));
+    }
 } 
 
 async function mexcMonitor(){
@@ -102,11 +111,10 @@ async function mexcMonitor(){
             
             console.log("New Asset Found:",element.vn)
 
-            sendMsg(element,`https://www.mexc.com/api/file/download/${element.in}`)
+            await sendMsg(element,`https://www.mexc.com/api/file/download/${element.in}`)
 
             // wait 2 seconds before sending the next message
             await new Promise(resolve => setTimeout(resolve, 2000));
-
         }
         
     };

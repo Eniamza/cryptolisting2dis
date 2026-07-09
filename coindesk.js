@@ -75,20 +75,29 @@ async function coindeskMonitor() {
         };
 
         try {
-            await ax.post(process.env.CD_WEBHOOK, {
-                embeds: [embed],
-                username: "Top Exchanges",
-                avatar_url: "https://png.pngtree.com/png-vector/20250306/ourmid/pngtree-green-red-trading-candlestick-logo-clipart-for-stock-forex-and-crypto-vector-png-image_15455728.png"
-            }).then(response => {
-                console.log("Top Exchange posted successfully:", response.data);
-            }).catch(error => {
-                console.error("Error posting Top Exchange:", error);
-            });
+            const webhooks = process.env.CD_WEBHOOK ? process.env.CD_WEBHOOK.split(',') : [];
+            
+            for (const webhook of webhooks) {
+                if (!webhook.trim()) continue;
+
+                await ax.post(webhook.trim(), {
+                    embeds: [embed],
+                    username: "Top Exchanges",
+                    avatar_url: "https://png.pngtree.com/png-vector/20250306/ourmid/pngtree-green-red-trading-candlestick-logo-clipart-for-stock-forex-and-crypto-vector-png-image_15455728.png"
+                }).then(response => {
+                    console.log("Top Exchange posted successfully.");
+                }).catch(error => {
+                    console.error("Error posting Top Exchange:", error);
+                });
+
+                const delay = Math.floor(Math.random() * 5001) + 1000;
+                await new Promise(resolve => setTimeout(resolve, delay));
+            }
         } catch (error) {
             console.error("Error fetching Top Exchange:", error);
         }
 
-        // Wait for 1 second before posting the next exchange
+        // wait 2 seconds before sending the next message
         await new Promise(resolve => setTimeout(resolve, 2000));
 
         index++;

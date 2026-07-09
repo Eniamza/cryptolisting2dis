@@ -81,21 +81,32 @@ async function dsMonitor() {
 
         // Send the message to the webhook
         try {
-            await ax.post(process.env.DS_WEBHOOK, 
-                {
-                    embeds: [message],
-                    avatar_url: "https://play-lh.googleusercontent.com/Oh3K6G7xRvEPc9_6E-ia_dsVjICoviD9o72MqYNeawTRR10x6U4RN8hznrv_pPH-c610",
-                    username: "DexScreener Listing"
-                }, 
-                {
-                    headers: {
-                        'Content-Type': 'application/json'
-                    }
-                }
-            );
-            console.log(`Message sent for token ${token.tokenAddress}`);
-            await new Promise(resolve => setTimeout(resolve, 2000));
+            const webhooks = process.env.DS_WEBHOOK ? process.env.DS_WEBHOOK.split(',') : [];
             
+            for (const webhook of webhooks) {
+                if (!webhook.trim()) continue;
+
+                await ax.post(webhook.trim(), 
+                    {
+                        embeds: [message],
+                        avatar_url: "https://play-lh.googleusercontent.com/Oh3K6G7xRvEPc9_6E-ia_dsVjICoviD9o72MqYNeawTRR10x6U4RN8hznrv_pPH-c610",
+                        username: "DexScreener Listing"
+                    }, 
+                    {
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    }
+                );
+                console.log(`Message sent for token ${token.tokenAddress}`);
+                
+                const delay = Math.floor(Math.random() * 5001) + 1000;
+                await new Promise(resolve => setTimeout(resolve, delay));
+            }
+            
+            // wait 2 seconds before sending the next message
+            await new Promise(resolve => setTimeout(resolve, 2000));
+
         } catch (error) {
             console.error(error);
             break; // Break the loop on error
